@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pinturas rd</title>
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="main__title">Pagina de compras</h1>
+
+      <section class="container">
+        <form class="form">
+          <input type="text" placeholder="Ingresa su nombre" class="form__input" name="fname" />
+          <input
+            type="text"
+            placeholder="Ingresa su apellido"
+            class="form__input"
+            name="lname"
+          /><br />
+          <input type="radio" name="gender" value="F" />Femenino<br />
+          <input type="radio" name="gender" value="M" />Masculino<br />
+      
+          <br />
+          <label>Pintura a comprar</label>
+          <br />
+          <input type="checkbox" name="language" value="Azul" />Azul
+          <input type="checkbox" name="language" value="Verde" />Verde
+          <input type="checkbox" name="language" value="roja" />roja
+          <input type="checkbox" name="language" value="Amarilla" />Amarilla
+          <br />
+          <br/>
+          <select name="pinturas">
+            <option value="tropical">Tropical</option>
+            <option value="pintura lanco">Pintura Lanco</option>
+            <option value="pintura popular">Pintura popular</option>
+          </select>
+          <br/>
+          <br />
+          <textarea name="comments"></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+<script type="module" src="/src/main.js"></script>
+  </body>
+</html>
